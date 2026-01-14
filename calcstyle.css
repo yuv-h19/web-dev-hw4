@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    
+}
+
+.calculator-wrapper {
+    border: 1px solid;
+    padding: 25px;
+    width: 100%;
+    max-width: 550px;
+}
+
+header h1 {
+    margin-top: 0;
+}
+/* עיצוב אזור קלט הגיל */
+.age-input-area {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.age-input-area label {
+    width: 120px;
+}
+
+.age-input-area input {
+    flex: 1;
+    padding: 4px;
+}
+
+/* עיצוב אזור בחירת סוג ציון */
+.selection-area {
+    border: 1px solid;
+    margin: 20px 0;
+    padding: 15px;
+    position: relative;
+}
+
+.selection-label {
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background: white;
+    padding: 0 5px;
+    margin: 0;
+}
+
+.radio-options {
+    display: flex;
+    gap: 20px;
+}
+
+/* עיצוב אזור קלט הציונים */
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.input-group label {
+    width: 120px;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 4px;
+}
+
+/*שאלה 3*/
+.green{
+    background-color:greenyellow;
+} 
+
