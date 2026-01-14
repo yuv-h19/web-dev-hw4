@@ -4,7 +4,7 @@ This repository contains the College Admissions Calculator assignment for the We
 
 ## 🌐 Live Preview
 
-You can view the calculator here: [https://yuv-h19.github.io/web-dev-hw4/(https://yuv-h19.github.io/web-dev-hw4/)]
+You can view the calculator here: https://yuv-h19.github.io/web-dev-hw4/
 
 ## 📁 Project Structure
 
