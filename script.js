@@ -21,17 +21,17 @@ function validate() {
     if (bagrutGrade === "") {
     alert("You should enter a bagrut grade");
     }
-    if (ageValue >= 30) {
+    if (ageValue > 30) {
         document.getElementsByClassName('green')[0].innerHTML = "<p>You are eligible for admission to any faculty you choose</p>"
         }
-    else if (ageValue < 30) {
+    else if (ageValue =< 30) {
         document.getElementsByClassName('green')[0].innerHTML = "<p></p>"
     }
-         /* returns false to make sure the form does not submit
-          and the page does not reload,
-          so the user can see the age 30 message.
-          If we want to change this,
-          we should use onclick instead of onsubmit */
+        /* returns false to prevent the form from submitting and the page from reloading,
+           so the green message stays on screen and the form is not reset.
+           This works because in this taks we're not actually sending the data anywhere.
+           If we want different behavior, we can use onclick instead of onsubmit. */
     return false;
     
 }
+
