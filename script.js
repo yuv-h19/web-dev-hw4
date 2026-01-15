@@ -24,7 +24,7 @@ function validate() {
     if (ageValue > 30) {
         document.getElementsByClassName('green')[0].innerHTML = "<p>You are eligible for admission to any faculty you choose</p>"
         }
-    else if (ageValue =< 30) {
+    else if (ageValue <= 30) {
         document.getElementsByClassName('green')[0].innerHTML = "<p></p>"
     }
         /* returns false to prevent the form from submitting and the page from reloading,
@@ -34,4 +34,5 @@ function validate() {
     return false;
     
 }
+
 
